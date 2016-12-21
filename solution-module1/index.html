@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app='AssMod1'>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style> body { font-size: 1.2em; }</style>
+    <title>Assignment Module 1</title>
+  </head>
+  <body>
+    <h1>Assignment Module 1</h1>
+    <div ng-controller='AssMod1Controller'>
+      <input type="text" ng-model="string" ng-change="convertToArray()">
+      <br>
+       {{showMsg()}}
+    </div>
+  </body>
+</html>
